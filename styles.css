@@ -1,1 +1,77 @@
-/* Copy and paste your CSS from CodePen into here */
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+  }
+  
+  main {
+    /*background: purple;*/
+    margin: 30px 80px;
+    padding: 10px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1.8;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background: #660066;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    line-height: 0.1;
+    color: black;
+    text-shadow: 1px 1px  5px white;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    line-height:0.2;
+    font-style: italic;
+    color: black;
+    text-shadow: 1px 1px  5px white;
+  
+  }
+  
+  /* The default purple against the purple background looked dull
+   shifted this for better visibility*/
+  a:visited {
+    color: #FFD700;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  figcaption {
+    color: white;
+  }
+  
+  #img-div {
+    background: black;
+    
+  }
+  
+  section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   
+  }
+  
+  #img-caption{
+    background: #434c5e;
+  }
+  
+  #tribute-info-2 {
+    font-style: oblique;
+  }
